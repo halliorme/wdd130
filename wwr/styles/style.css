@@ -30,31 +30,31 @@ header {
 }
 nav a:hover {
     background-color: #0047AB;
-    color: #000000;
+    color: #FFFFFF;
 }
 .book {
-    background-color: #FF5E00;
+    background-color: #00A88E;
     color: #000000;
     text-decoration: none;
 }
 .join {
-    background-color: #FF5E00;
+    background-color: #FFFFB4;
     color: #000000;
     text-decoration: none;
 }
 .book:hover {
     background-color: #0047AB;
-    color: #000000;
+    color: #FFFFFF;
 }
 .join:hover {
     background-color: #0047AB;
-    color: #000000;
+    color: #FFFFFF;
 }
 #background {
     background-color: #00A88E;
 }
 .msg {
-    background-color: #FF5E00;
+    background-color: #FFFFB4;
 }
 footer {
     background-color: #FFFFB4;
