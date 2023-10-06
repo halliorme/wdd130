@@ -1,0 +1,20 @@
+.maincontent {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    background-color: pink;
+}
+h1:hover {
+    color: black;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+section {
+    text-align: center;
+}
