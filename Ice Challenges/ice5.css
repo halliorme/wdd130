@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+.Title {
+    width: 100%;
+}
+#three-img {
+    border-radius: 50%;
+    width: 300px;
+    margin: 5% 0 0 6.5%;
+    border: 15px solid #555;
+}
