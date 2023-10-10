@@ -1,4 +1,4 @@
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -93,7 +93,4 @@ footer p a:hover {
 }
 .logo {
     width: 80px;
-}
-#hero-img {
-    width: 100%;
 }
