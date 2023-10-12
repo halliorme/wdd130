@@ -10,21 +10,24 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+nav a:hover {
+    background-color: #0047AB;
+    color: #FFFFFF;
+}
+header {
+    background-color: #FFFFB4;
+}
 #hero-msg h1 {
     text-align: center;
 }
 #hero-msg h4 {
     text-align: center;
 }
+#hero-img {
+    width: 100%;
+}
 .button-box {
     text-align: center;
-}
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
-    background-color: #00A88E;
 }
 body {
     background-color: #FFFFFF; 
@@ -33,18 +36,27 @@ body {
     margin: 0;
     padding: 0;
 }
+#background {
+    height: 725px;
+    background-color: #00A88E;
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
 #logo_link {
     padding-top: 5px;
+}
+.logo {
+    width: 80px;
 }
 h2 {
     margin: 0;
 }
-header {
-    background-color: #FFFFB4;
-}
-nav a:hover {
-    background-color: #0047AB;
-    color: #FFFFFF;
+h4 {
+    color: #000000;
 }
 .book, .join {
     background-color: #00A88E;
@@ -59,25 +71,16 @@ nav a:hover {
     background-color: #0047AB;
     color: #FFFFFF;
 }
-.msg {
-    background-color: #FFFFB4;
-    line-height: 1.5em;
-    padding: 35px;
-}
-footer {
-    background-color: #FFFFB4;
-    color: #000000;
-    padding: 25px 50px;
-    margin-top: 200px;
-}
 .home-title {
     color: #000000;
     font-family: 'Englebert', 'Monsterrat', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
-h4 {
-    color: #000000;
+.msg {
+    background-color: #FFFFB4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #000000;
@@ -87,6 +90,25 @@ h4 {
     color: #000000;
     font-size: .8em;
     padding-bottom: 15px;
+}
+.mountains {
+    margin: 100px 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #00A88E;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+footer {
+    background-color: #FFFFB4;
+    color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #000000;
@@ -98,31 +120,9 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
-.icon {
-    width: 80px;
-    padding-top: 10px;
-}
-#hero-img {
-    width: 100%;
-}
 footer p {
     font-size: 1.2em;
 } 
 footer p a:hover {
     text-decoration: underline;
-}
-.logo {
-    width: 80px;
-}
-.mountains {
-    margin: 100px 0;
-}
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}
-.card-img {
-    border: 10px solid #00A88E;
-}
-main section img {
-    box-sizing: border-box;
 }
