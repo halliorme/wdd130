@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -21,9 +24,20 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #00A88E;
 }
 body {
     background-color: #FFFFFF; 
+    font-family: "Montserrat";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #FFFFB4;
@@ -32,45 +46,47 @@ nav a:hover {
     background-color: #0047AB;
     color: #FFFFFF;
 }
-.book {
+.book, .join {
     background-color: #00A88E;
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: #FFFFB4;
-    color: #000000;
-    text-decoration: none;
-}
-.book:hover {
+.book:hover, .join:hover {
     background-color: #0047AB;
     color: #FFFFFF;
-}
-.join:hover {
-    background-color: #0047AB;
-    color: #FFFFFF;
-}
-#background {
-    background-color: #00A88E;
 }
 .msg {
     background-color: #FFFFB4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #FFFFB4;
     color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #000000;
+    font-family: 'Englebert', 'Monsterrat', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #000000;
 }
 .msg h2 {
     color: #000000;
+    font-family: "Montserrat";
 }
 .msg p {
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #000000;
@@ -79,8 +95,12 @@ footer a {
 footer a:hover {
     color: #000000;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -93,4 +113,16 @@ footer p a:hover {
 }
 .logo {
     width: 80px;
+}
+.mountains {
+    margin: 100px 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #000000;
+}
+main section img {
+    box-sizing: border-box;
 }
