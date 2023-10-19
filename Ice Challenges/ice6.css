@@ -1,0 +1,21 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: -1;
+}
+.tart {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+.cherries {
+    background-attachment: white;
+}
+.red {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+.gray {
+    background-color: gray;
+}
