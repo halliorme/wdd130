@@ -50,7 +50,7 @@ header {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .button-box {
     text-align: center;
