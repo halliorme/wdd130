@@ -1,8 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@700&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #082335   ;
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #FFE9B4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Alfa Slab One";
-  --paragraph-font: Roboto, serif, sans-serif;
+  --heading-font: "Montserrat";
+  --paragraph-font: 'Kanit', 'Roboto', 'sans-serif';
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #082335;  /* headlines on a white background */ 
