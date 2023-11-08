@@ -185,11 +185,24 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+#river_content {
+    background-color: #00A88E;
+}
 .blue_river {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     width: 50%;
+    border: 5px solid #000000;
+}
+.letters {
+    background-color: #FFFFB4;
+    color: #000000;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 }
 
 @media screen and (max-width: 900px) {
