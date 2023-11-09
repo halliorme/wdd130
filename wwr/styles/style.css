@@ -198,7 +198,7 @@ footer p a:hover {
 }
 .blue_river {
     width: 100%;
-    border: 5px solid #000000;
+    border: 5px double #000000;
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 20px;
@@ -209,10 +209,10 @@ footer p a:hover {
 }
 .letters {
     background-color: #FFFFB4; 
-    border: 2px solid #000000;
+    border: 10px groove #ff5e00;
     color: #000000;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 25px;
     font-family: 'Montserrat', serif, sans-serif;
     font-size: 22px;
