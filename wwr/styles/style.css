@@ -191,7 +191,7 @@ footer p a:hover {
     grid-template-rows: 500px 500px;
 }
 #backgrounds {
-    height: 563px;
+    height: 700px;
     background-color: #00A88E;
     grid-column: 1/4;
     grid-row: 1/3;
@@ -216,6 +216,11 @@ footer p a:hover {
     border-radius: 25px;
     font-family: 'Montserrat', serif, sans-serif;
     font-size: 22px;
+    line-height: 1.25em;
+}
+#backgrounds2 {
+    height: 400px;
+    background-color: #00A88E;
 }
 
 @media screen and (max-width: 900px) {
