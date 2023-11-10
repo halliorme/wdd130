@@ -200,7 +200,7 @@ footer p a:hover {
     border: 5px double #000000;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin: 20px;
+    margin: auto;
 }
 .words {
     grid-row: 2/3;
@@ -208,6 +208,9 @@ footer p a:hover {
 }
 .title {
     font-family: 'Englebert', 'Monsterrat', sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 3px;
 }
 .letters {
     background-color: #FFFFB4; 
