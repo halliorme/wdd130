@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+body{
+    font-size: 20px;
+}
 .logo {
     max-width: 90px;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 nav {
     display: flex;
@@ -33,7 +38,6 @@ header {
   .picture {
     display: block;
     max-width: 100%;
-    padding: auto;
   }
   .prev, .next {
     cursor: pointer;
@@ -88,6 +92,13 @@ header {
     from {opacity: .4}
     to {opacity: 1}
   }
+h1{
+    text-align: center;
+}
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 footer {
     background-color: #CB9B45;
     color: #000000;
@@ -114,3 +125,16 @@ footer p a:hover {
     text-decoration: underline;
 }
   
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
