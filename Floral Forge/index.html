@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <title>Floral Forge | Home</title>
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("picture");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
 </head>
 <body>
     <div class="content">
@@ -19,12 +49,12 @@
             </nav>
         </header>
             <div class="slideshow-container">
-                <div class="picture">
-                    <div class="photo1">1 / 2</div>
+                <div class="picture fade">
+                    <div class="number">1 / 2</div>
                     <img src="images/istockphoto-1271013768-612x612.jpg" alt="Golden leaves">
                 </div>
-                <div class="picture">
-                    <div class="photo2">2 / 2</div>
+                <div class="picture fade">
+                    <div class="number">2 / 2</div>
                     <img src="images/istockphoto-1272286312-612x612.jpg" alt="Rustic metal flower">
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -32,7 +62,6 @@
                 <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
         <main class="home-grid">
