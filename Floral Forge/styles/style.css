@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 body{
     font-size: 20px;
+    display: grid;
 }
 .logo {
     max-width: 90px;
@@ -18,6 +23,7 @@ nav a {
     color: #000000;
     text-decoration: none;
     padding: 35px;
+    font-family: 'kanit';
 }
 nav a:hover {
     background-color: #082335;
@@ -28,12 +34,16 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+.size {
+    width: 800px;
+}
 * {box-sizing:border-box}
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
     text-align: center;
+    border: solid #082335 100px;
   }
   .picture {
     display: block;
@@ -57,11 +67,11 @@ header {
     user-select: none;
   }
   .next {
-    left: 550px;
+    left: 750px;
     border-radius: 3px 0 0 3px;
   }
   .prev {
-    right: 550px;
+    right: 750px;
   }
   .number {
     color: #f2f2f2;
@@ -69,7 +79,7 @@ header {
     padding: 8px 12px;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 10px;
   }
   .dot {
     cursor: pointer;
@@ -80,6 +90,7 @@ header {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    background-color: #082335;
   }
   .active, .dot:hover {
     background-color: #717171;
@@ -94,17 +105,24 @@ header {
   }
 h1{
     text-align: center;
+    font-family: 'Montserrat';
 }
 section p {
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Kanit';
 }
+#block{
+    max-width: 100%;
+    height: 75px;
+    background-color: #082335;
+    margin-bottom: 22px;
+    margin-top: 100px;
+}
 footer {
     background-color: #CB9B45;
     color: #000000;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
