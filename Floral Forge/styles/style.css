@@ -7,7 +7,6 @@
 body{
     font-size: 20px;
     display: grid;
-    grid-template-columns: 50px 1fr 1fr 50px;
     margin: 0;
 }
 .logo {
@@ -40,9 +39,6 @@ header {
 }
 .size {
     width: 800px;
-}
-.pic1 {
-    grid-column: 2/3;
 }
 * {box-sizing:border-box}
 .slideshow-container {
