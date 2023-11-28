@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -150,7 +149,6 @@ footer p a:hover {
     text-decoration: underline;
 }
   
-
 @media screen and (max-width: 900px) {
     nav, footer {
         flex-direction: column;
