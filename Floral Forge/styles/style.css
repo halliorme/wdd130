@@ -36,6 +36,7 @@ header {
     background-color: #CB9B45;
     display: grid;
     grid-template-columns: 150px auto;
+    width: 100%;
 }
 .size {
     width: 800px;
@@ -53,6 +54,15 @@ header {
     max-width: 45%;
     height: auto;
     border-radius: 1%;
+}
+.big-photo {
+    text-align: center;
+}
+
+.big-photo img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 * {box-sizing:border-box}
 .slideshow-container {
@@ -120,6 +130,22 @@ header {
     from {opacity: .4}
     to {opacity: 1}
   }
+  .side-pic {
+    float: left;
+    margin-left: 20px;
+}
+.side-p {
+    overflow: hidden;
+}
+.side-text {
+    overflow: hidden;
+}
+.side-text p {
+    margin: 0;
+}
+h2 {
+    font-family:  'Montserrat';
+}
 h1{
     text-align: center;
     font-family: 'Montserrat';
