@@ -130,21 +130,21 @@ header {
     from {opacity: .4}
     to {opacity: 1}
   }
-  .side-pic {
+.side-pic {
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.side-pic p {
+    font-family: 'Kanit';
+    margin-left: 50px;
+}
+.float {
     float: left;
-    margin-left: 20px;
 }
-.side-p {
-    overflow: hidden;
-}
-.side-text {
-    overflow: hidden;
-}
-.side-text p {
-    margin: 0;
-}
-h2 {
+h3 {
     font-family:  'Montserrat';
+    margin-left: 100px;
 }
 h1{
     text-align: center;
@@ -171,7 +171,7 @@ h4{
     border-style: none none solid none;
 }
 section p {
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: 150px;
     margin-bottom: 180px;
     font-family: 'Kanit';
