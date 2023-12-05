@@ -132,29 +132,38 @@ header {
 .side-pic {
     margin-left: 70px;
     margin-right: 20px;
-    margin-bottom: 20px;
-    min-height: 500px;
+    min-height: 400px;
 }
 .side-pic p {
     font-family: 'Kanit';
-    margin-left: 50px;
     margin-right: 20px;
     margin-bottom: 70px;
+    font-size: 20.25px;
 }
 .float {
     float: left;
-    padding: 50px;
     max-width: 500px;
+    border: solid #082335 10px;
+    padding: 10px;
+    margin-right: 30px;
 }
 h3 {
     font-family:  'Montserrat';
-    margin-left: 100px;
+    margin-left: 530px;
+    border: #E16036 5px;
+    border-style: none none solid none;
 }
 h1{
     text-align: center;
     font-family: 'Montserrat';
     margin-top: 150px;
     margin-bottom: 50px;
+    color: #E16036;
+    background-color: #FFE9B4;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-right: 200px;
 }
 h1.inside-uses {
     color: #E16036;
