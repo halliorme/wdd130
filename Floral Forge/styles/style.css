@@ -43,11 +43,9 @@ header {
 .top-photos {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
     padding: 20px;
     background-color: #082335;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
 }
 .top-photos img {
     max-width: 45%;
@@ -62,6 +60,8 @@ header {
     max-width: 100%;
     height: auto;
     display: inline-block;
+    border: #000000 190px;
+    border-style: none solid none solid;
 }
 * {box-sizing:border-box}
 .slideshow-container {
@@ -158,12 +158,7 @@ h1{
     font-family: 'Montserrat';
     margin-top: 150px;
     margin-bottom: 50px;
-    color: #E16036;
-    background-color: #FFE9B4;
-    padding: 20px;
-    border-radius: 4px;
-    margin-left: 700px;
-    margin-right: 200px;
+    margin-right: 70px;
 }
 h1.inside-uses {
     color: #E16036;
@@ -184,7 +179,7 @@ h4{
     border-style: none none solid none;
 }
 section p {
-    margin-left: 100px;
+    margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 180px;
     font-family: 'Kanit';
